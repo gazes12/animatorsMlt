@@ -53,14 +53,29 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.social-info__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  row-gap: clamp(0.375rem, 1vw, 0.625rem);
+}
+
 .social-info__tel {
-  font-size: clamp(1.063rem, 5vw, 1.6rem);
+  font-size: clamp(1.063rem, 4.3vw, 1.6rem);
   color: var(--accent-color);
 }
+
 .social-info__address {
   font-size: 17px;
-  font-size: clamp(0.813rem, 5vw, 1.3rem);
-  margin-top: clamp(0.375rem, 5vw, 0.625rem);
+  font-size: clamp(0.813rem, 4.1vw, 1.3rem);
 }
 
 .header-bottom {
@@ -99,7 +114,7 @@
   color: var(--text-color);
   padding: 5px 20px;
   text-align: center;
-  font-size: clamp(0.625rem, 4vw, 0.875rem);
+  font-size: clamp(0.625rem, 3vw, 0.875rem);
 }
 
 .presentation__button {
@@ -112,6 +127,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .social-info__contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .logo {
     -webkit-box-orient: vertical;
