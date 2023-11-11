@@ -45,7 +45,7 @@
 .order-line__label {
   margin-bottom: clamp(0.5rem, 3.5vw, 0.975rem);
   font-weight: 800px;
-  font-size: clamp(0.875rem, 5vw, 1.8rem);
+  font-size: clamp(0.875rem, 0.8071rem + 0.3878vw, 1.8rem);
   padding-left: clamp(0.875rem, 5vw, 0.938rem);
 }
 .order-line__input {
@@ -72,13 +72,13 @@
 }
 
 .order-select__title {
-  font-size: clamp(0.875rem, 5vw, 1.8rem);
+  font-size: clamp(0.875rem, 0.8071rem + 0.3878vw, 1.8rem);
   margin-bottom: clamp(0.938rem, 5vw, 1.875rem);
 }
 .order-select .hero-name {
   color: var(--secondary-color);
   line-height: 1.3;
-  font-size: clamp(0.75rem, 4.5vw, 1.438rem);
+  font-size: clamp(0.75rem, 0.6995rem + 0.2885vw, 1.438rem);
 }
 .order-select__items {
   display: -webkit-box;
