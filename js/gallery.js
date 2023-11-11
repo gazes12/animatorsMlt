@@ -1,4 +1,4 @@
-$("[data-fancybox]").fancybox({
-    touch: false
+Fancybox.bind("[data-fancybox]", {
+    modal: true,
 });
 

@@ -3,10 +3,9 @@
   position: relative;
 }
 
-.advantages__container {
-  max-width: 100%;
-}
-
+/* .advantages__container{
+    max-width: 100%;
+} */
 .advantages__items {
   display: -webkit-box;
   display: -ms-flexbox;
