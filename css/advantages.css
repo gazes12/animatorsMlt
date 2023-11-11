@@ -1,6 +1,10 @@
 .advantages {
-  background: var(--main-color);
+  background: radial-gradient(at center, #DE571B, #893201);
   position: relative;
+}
+
+.advantages__container {
+  max-width: 100%;
 }
 
 .advantages__items {

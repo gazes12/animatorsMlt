@@ -33,7 +33,7 @@ $('.heroes__dot').click(function () {
 
 
 owl_heroes.on('changed.owl.carousel', function(e){
-  addAnimation(e.relatedTarget.relative(e.relatedTarget.current()));
+  setTimeout(() =>{  addAnimation(e.relatedTarget.relative(e.relatedTarget.current()));}, 1);
 });
 
 
@@ -43,6 +43,8 @@ function addAnimation(index){
     $('.heroes-info').find('.heroes-info__name').remove();
     $('.heroes-info').find('.heroes-info__desc').remove();
     $('.heroes-info').find('.heroes-info__button').remove();
+
+    
 
 
     $("body").get(0).style.setProperty("--support-color", $('.heroes-carousel .owl-item.active').find('.heroes-carousel__item').data('color'));

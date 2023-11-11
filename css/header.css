@@ -1,5 +1,6 @@
 .header {
   padding: clamp(1.25rem, 5vw, 2.5rem);
+  background: conic-gradient(from 180deg, #DE571B, #893201);
   position: relative;
   background: url("../assets/prev.png");
   background-repeat: no-repeat;
@@ -114,7 +115,7 @@
   color: var(--text-color);
   padding: 5px 20px;
   text-align: center;
-  font-size: clamp(0.625rem, 3vw, 0.875rem);
+  font-size: clamp(0.625rem, 3vw, 1rem);
 }
 
 .presentation__button {

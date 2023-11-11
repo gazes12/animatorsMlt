@@ -79,7 +79,7 @@ function printNames(){
     }else if(names.length == 1){
         $('.hero-name').text(names.join(''));
     }else     if(names.length == 0){
-        $('.hero-name').text('пусто....');
+        $('.hero-name').text('');
     }
 
 }
